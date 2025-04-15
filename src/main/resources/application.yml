@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path:
+
+weather:
+  api:
+    key: 9c4ee0a678a30c13333dad32b675205c
+
+spring:
+  redis:
+    host: localhost
+    port: 6397
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: weather
